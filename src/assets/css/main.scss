@@ -1,0 +1,11 @@
+@import '~@/assets/css/reset.scss';
+@import '~@/assets/css/banner.scss';
+@import '~@/assets/css/body.scss';
+
+.app {
+  width:100%;
+  height:100%;
+  position:absolute;
+  display: flex;
+  flex-direction: column;
+}

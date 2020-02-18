@@ -1,0 +1,27 @@
+.banner {
+  flex: 1;
+  background-color: #4A4A4A;
+
+  display: flex;
+  flex-direction: row;
+
+  .title {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+
+    .selfPicture {
+      background: url('~@/assets/images/self.png') no-repeat;
+      background-size: 8rem auto;
+      height: 8rem;
+      width: 8rem;
+      border-radius: 50%;
+    }
+
+    span {
+      font-size: 2rem;
+      color: #ffffff;
+      margin: 3rem 2rem 3rem 2rem;
+    }
+  }
+}
