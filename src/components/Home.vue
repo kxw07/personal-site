@@ -12,8 +12,8 @@
           li 文章分類二號
           li 文章分類三號
         .link
-          .fb(v-on:click="cliclLink('https://zh-tw.facebook.com/people/%E5%90%B3%E9%8E%A7%E7%BF%94/100000200975903')")
-          .github(v-on:click="cliclLink('https://github.com/kxw07')")
+          .fb(v-on:click="clickLink('https://zh-tw.facebook.com/people/%E5%90%B3%E9%8E%A7%E7%BF%94/100000200975903')")
+          .github(v-on:click="clickLink('https://github.com/kxw07')")
       .content
         .articles
           .article
@@ -33,7 +33,7 @@ export default {
     }
   },
   methods: {
-    cliclLink(url) {
+    clickLink(url) {
       window.location.href=url
     }
   }
