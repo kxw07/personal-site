@@ -7,7 +7,8 @@
             .selfPicture
             span Kai's Blog
         ul
-          li 個人專頁
+          li
+            router-link(to='/MyDescription', tag="li") 個人專頁
           li 文章分類一號
           li 文章分類二號
           li 文章分類三號
@@ -35,6 +36,9 @@ export default {
   methods: {
     clickLink(url) {
       window.location.href=url
+    },
+    toMyDescription() {
+        this.$router.push(this.$route.path + '/myDescription')
     }
   }
 }
