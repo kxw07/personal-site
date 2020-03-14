@@ -7,8 +7,8 @@
           li Java
           li OracleSQL, PostgreSQL
         ul Side
-          li GoLang
           li JavaScript
+          li GoLang
           li CSS
       .devops DevOps
         ul

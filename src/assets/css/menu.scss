@@ -9,10 +9,11 @@
 
     display: flex;
     flex-direction: row;
+    justify-content: center;
 
     .title {
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
       padding: 1rem;
 
       .selfPicture {
@@ -21,12 +22,13 @@
         height: 8rem;
         width: 8rem;
         border-radius: 50%;
+        margin: auto;
       }
 
       span {
         font-size: 2rem;
         color: #ffffff;
-        margin: 3rem 2rem 3rem 2rem;
+        margin: auto;
       }
     }
   }
