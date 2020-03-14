@@ -1,15 +1,16 @@
 .content {
-  background-color: #5e9d8f;
+  background-color: #333436;
+  color: #ffffff;
   display: flex;
   flex-direction: column;
 
   .articles {
     flex: 1;
-    background-color: #a4689a;
     padding: 1rem;
+    margin-top: 1rem;
 
     .article {
-      background-color: #67537e;
+      margin-left: 5rem;
       padding: 1rem;
       height: 10rem;
     }
