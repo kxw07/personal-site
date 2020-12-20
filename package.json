@@ -9,23 +9,26 @@
     "inspect": "vue-cli-service inspect"
   },
   "dependencies": {
-    "core-js": "^3.6.4",
-    "node-sass": "^4.13.1",
+    "bootstrap": "^4.5.3",
+    "bootstrap-vue": "^2.21.1",
+    "core-js": "^3.8.1",
+    "jquery": "^1.9.1",
+    "node-sass": "^4.14.1",
     "pug": "^2.0.4",
-    "pug-plain-loader": "^1.0.0",
-    "sass": "^1.25.0",
+    "pug-plain-loader": "^1.1.0",
+    "sass": "^1.30.0",
     "sass-loader": "^8.0.2",
-    "vue": "^2.6.11",
-    "vue-router": "^3.1.5"
+    "vue": "^2.6.12",
+    "vue-router": "^3.4.9"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "~4.2.0",
-    "@vue/cli-plugin-eslint": "~4.2.0",
-    "@vue/cli-service": "~4.2.0",
-    "babel-eslint": "^10.0.3",
+    "@vue/cli-plugin-babel": "^4.2.3",
+    "@vue/cli-plugin-eslint": "^4.2.3",
+    "@vue/cli-service": "^4.2.3",
+    "babel-eslint": "^10.1.0",
     "eslint": "^6.7.2",
-    "eslint-plugin-vue": "^6.1.2",
-    "vue-template-compiler": "^2.6.11"
+    "eslint-plugin-vue": "^6.2.2",
+    "vue-template-compiler": "^2.6.12"
   },
   "eslintConfig": {
     "root": true,
