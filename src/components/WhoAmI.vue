@@ -3,27 +3,35 @@
     .div.self
       .picture
       .name Kai
-    .div.experience
-      .ul 工作經歷 ( Work Experience )
+    hr
+    .div
+      .h4 工作經歷 ( Work Experience )
+      .ul
         li 新博軟體 2017/07 ~ 現在
         li 鼎新電腦 2015/11 ~ 2017/06
+        br
         hr
-    .div.skills 技能 ( Skills )
-      .ul 後端及框架 ( Backend & Framework )
+      .h4 技能 ( Skills )
+      .h5 後端及框架 ( Backend & Framework )
+      .ul
         li Java
         li Spring
-      .ul 前端及框架 ( Frontend & Framework )
+        br
+      .h5 前端及框架 ( Frontend & Framework )
+      .ul
         li JavaScript
         li Vue
-        hr
-    .div.others 其他 ( Others )
-      .ul 資料庫語言 ( SQL )
+        br
+      .h5 資料庫語言 ( SQL )
+      .ul
         li Oracle
         li PostgreSQL
-      .ul 程式控管及整合 ( Version Control, CI/CD )
+        br
+      .h5 版本控管及整合 ( Version Control, CI/CD )
+      .ul
         li Git
         li Drone.io
-        li Jenkins
+        li Kubernetes
 </template>
 
 <script>
@@ -34,13 +42,16 @@ export default {
 
 <style type="scss">
 .container.custom-container-width {
-  margin-top: 15px;
-  max-width: 930px;
+  padding-top: 15px;
+  max-width: 750px;
+  font-family: "sans-serif";
+  background: #d6ffeb;
 }
 
 .self {
   display: flex;
-  align-items: baseline;
+  align-items: flex-end;
+  padding: 0 15px 15px 0;
 }
 
 .picture {
@@ -49,10 +60,19 @@ export default {
   height: 10rem;
   width: 10rem;
   border-radius: 50%;
+  border-style: solid;
+  border-width: medium;
+  border-color: #c9eee3;
 }
 
 .name {
-  font-size: xxx-large;
+  font-size: 6rem;
   padding-left: 20px;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  line-height: 1;
+}
+
+li {
+  text-indent: 1rem;
 }
 </style>
