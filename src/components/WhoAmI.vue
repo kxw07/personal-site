@@ -4,31 +4,31 @@
       .picture
       .name Kai
     hr
-    .div
+    .div.aaa
       .h4 工作經歷 ( Work Experience )
-      .ul
+      ul
         li 新博軟體 2017/07 ~ 現在
         li 鼎新電腦 2015/11 ~ 2017/06
         br
         hr
       .h4 技能 ( Skills )
       .h5 後端及框架 ( Backend & Framework )
-      .ul
+      ul
         li Java
         li Spring
         br
       .h5 前端及框架 ( Frontend & Framework )
-      .ul
+      ul
         li JavaScript
         li Vue
         br
       .h5 資料庫語言 ( SQL )
-      .ul
+      ul
         li Oracle
         li PostgreSQL
         br
-      .h5 版本控管及整合 ( Version Control, CI/CD )
-      .ul
+      .h5 版本控管及整合 ( VCS, CI/CD )
+      ul
         li Git
         li Drone.io
         li Kubernetes
@@ -45,7 +45,7 @@ export default {
   padding-top: 15px;
   max-width: 750px;
   font-family: "sans-serif";
-  background: #d6ffeb;
+  background: #e5ffea;
 }
 
 .self {
@@ -62,7 +62,7 @@ export default {
   border-radius: 50%;
   border-style: solid;
   border-width: medium;
-  border-color: #c9eee3;
+  border-color: #d6ffeb;
 }
 
 .name {
@@ -72,7 +72,11 @@ export default {
   line-height: 1;
 }
 
-li {
+/*li {*/
+/*  text-indent: 1rem;*/
+/*}*/
+
+.h5 {
   text-indent: 1rem;
 }
 </style>
