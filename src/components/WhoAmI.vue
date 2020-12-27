@@ -45,7 +45,7 @@ export default {
   padding-top: 15px;
   max-width: 750px;
   font-family: "sans-serif";
-  background: #e5ffea;
+  background: #f0f0f0;
 }
 
 .self {
@@ -62,7 +62,7 @@ export default {
   border-radius: 50%;
   border-style: solid;
   border-width: medium;
-  border-color: #d6ffeb;
+  border-color: #f0f0f0;
 }
 
 .name {
@@ -71,10 +71,6 @@ export default {
   font-family: Brush Script MT, Brush Script Std, cursive;
   line-height: 1;
 }
-
-/*li {*/
-/*  text-indent: 1rem;*/
-/*}*/
 
 .h5 {
   text-indent: 1rem;
