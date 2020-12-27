@@ -3,8 +3,11 @@
     .div.self
       .picture
       .name Kai
+    span 主要靠後端維生，因應日常需求學了點前端
+    br
+    span 為了團隊管理及更強大的技術支援，持續磨練中
     hr
-    .div.aaa
+    .div
       .h4 工作經歷 ( Work Experience )
       ul
         li 新博軟體 2017/07 ~ 現在
@@ -22,16 +25,12 @@
         li JavaScript
         li Vue
         br
-      .h5 資料庫語言 ( SQL )
-      ul
-        li Oracle
-        li PostgreSQL
-        br
       .h5 版本控管及整合 ( VCS, CI/CD )
       ul
         li Git
         li Drone.io
         li Kubernetes
+        br
 </template>
 
 <script>
